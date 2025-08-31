@@ -27,4 +27,5 @@ class TextAnalysis:
             translation = translator.translate(text)
             return translation
         except:
-            return "Hata oluştu!"
+            return "Hata oldu!"
+
